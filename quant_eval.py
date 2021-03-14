@@ -55,5 +55,6 @@ def compute_avg_errors(gt_dir, pred_dir):
 
 if __name__ == '__main__':
     gt_dir_path = 'data/test/depth/'
-    pred_dir_path = 'output/stereo_depth_estimator/'
+    pred_dir_path = 'output/DenseDepth_original/'
+    # pred_dir_path = 'output/stereo_depth_estimator/'
     compute_avg_errors(gt_dir_path, pred_dir_path)
